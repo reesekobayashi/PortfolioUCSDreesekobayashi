@@ -1,0 +1,134 @@
+/* Additional Styles */
+
+body {
+    padding-top: 56px;
+    background-color: #e9c3cd8e;
+}
+
+.custom-navbar {
+    background-color: #620505; /* Dark red color */
+}
+
+.navbar-brand,
+.navbar-nav .nav-link,
+footer {
+    font-family: 'Staatliches', sans-serif;
+    font-family: 'Tenor Sans', sans-serif;}
+
+h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #841313; /* Adjust text color */
+    font-size: 75px;
+} 
+
+h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #841313; /* Adjust text color */
+    font-size: 70px;
+} 
+
+p {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #841313; /* Adjust text color */
+    font-size: 50px;
+} 
+
+/* Improve Contact Form Styles */
+
+/* Header Styles */
+header {
+    text-align: center;
+    padding: 290px 0;
+    font-size: 25px;
+    background-image: url(images/d5fb7ae983c9021e49d9cf9c4e7abbb6.jpg);
+    background-size: cover; /* Ensure the background image covers the entire section */
+    background-position: center; /* Center the background image */
+    color: white;
+} 
+
+.highlight-text {
+    display: inline-block; /* Make the span a block-level element to fill the width */
+    background-color: rgba(247, 213, 226, 0.608); /* Background color with some transparency */
+    padding: 6px; /* Padding around the highlighted text */
+}
+
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff; /* Form background color */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+#projects {
+    padding-top: 70px; /* Adjust the padding as needed */
+}
+.project-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 50px;
+}
+.project-box img {
+    max-width: 200px; /* Set the maximum width of the image */
+    max-height: 200px;
+}
+h3 {
+    font-size: 30px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #841313;
+}
+#contact {
+    text-align: center; /* Center the content within the container */
+    padding-top: 80px; /* Adjust the padding as needed */
+    padding-bottom: 150px;
+}
+
+#Add {
+    text-align: center; /* Center the content within the container */
+    padding-top: 80px; /* Adjust the padding as needed */
+    padding-bottom: 100px;
+}
+
+.contact-box {
+    display: inline-block;
+    text-align: center;
+    margin: 70px; /* Adjust the margin for spacing between boxes */
+}
+
+.contact-box img {
+    max-width: 200px; /* Set the maximum width of the image */
+    max-height: 200px; /* Set the maximum height of the image */
+}
+
+
+.btn-primary {
+    background-color: #b55a7b; /* Match button color with header */
+    border-color: #6d0e0e;
+}
+
+.btn-primary:hover {
+    background-color: #5e3448; /* Darken color on hover */
+    border-color: #5e3446;
+}
+
+/* Responsive Design Adjustments */
+
+@media (max-width: 768px) {
+    header {
+        padding: 80px 0; /* Adjust header padding for smaller screens */
+    }
+    .contact-box {
+        margin: 40px; /* Adjust the margin for spacing between boxes */
+    }
+    /* Add more responsive adjustments as needed */
+}
